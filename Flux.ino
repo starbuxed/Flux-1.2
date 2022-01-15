@@ -871,7 +871,8 @@ void loop() {
 
 
 
-// ----------------- RAINBOW CHASE ------------------------
+// ----------------- RAINBOW HUE CHASE ------------------------
+// ALL leds on with ever changing colors
 
  // if (rainbowChase == 1) {
     //  for (int i = 0; i < 10; ) {
@@ -889,6 +890,7 @@ void loop() {
 //}
 
 // -------RAINBOW CHASE 2-------
+ // rad chase in rainbow with door leds on.
 
 
  if (rainbowChase == 1) {
@@ -936,11 +938,6 @@ void loop() {
      
       delay(delaySpeed);
         FastLED.clear();
-      
-      
-
-
-      
       
      
       timeTravel = 0;
